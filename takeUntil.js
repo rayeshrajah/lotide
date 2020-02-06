@@ -4,9 +4,9 @@ const takeUntil = function(arr, funct){
         if(!funct(item)){
         goodArr.push(item); 
         }else{
-            break;
+            return goodArr;
         }
-    }return goodArr;
+    }
 };
 
 const eqArray = function(arr, arr2) {
