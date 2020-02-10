@@ -1,0 +1,28 @@
+{
+  "name": "@rayesh/lotide",
+  "version": "1.0.0",
+  "description": "Lotide project is a clone of lodash made for education purposes.",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-victor/lotide.git"
+  },
+  "author": "Rayesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-victor/lotide/issues"
+  },
+  "homepage": "https://github.com/p-victor/lotide#readme"
+}
